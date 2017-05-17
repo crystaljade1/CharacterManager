@@ -14,6 +14,7 @@
 		82A79BE41ECC046900333504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A79BE21ECC046900333504 /* LaunchScreen.storyboard */; };
 		82A79BEF1ECC046900333504 /* CharacterManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A79BEE1ECC046900333504 /* CharacterManagerTests.swift */; };
 		82A79BFA1ECC046900333504 /* CharacterManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A79BF91ECC046900333504 /* CharacterManagerUITests.swift */; };
+		82A79C541ECCE76800333504 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A79C531ECCE76800333504 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		82A79BF51ECC046900333504 /* CharacterManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharacterManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A79BF91ECC046900333504 /* CharacterManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterManagerUITests.swift; sourceTree = "<group>"; };
 		82A79BFB1ECC046900333504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A79C531ECCE76800333504 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				82A79BD91ECC046900333504 /* AppDelegate.swift */,
 				82A79BDB1ECC046900333504 /* ViewController.swift */,
 				82A79BDD1ECC046900333504 /* Main.storyboard */,
+				82A79C531ECCE76800333504 /* JSON.swift */,
 				82A79BE01ECC046900333504 /* Assets.xcassets */,
 				82A79BE21ECC046900333504 /* LaunchScreen.storyboard */,
 				82A79BE51ECC046900333504 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A79C541ECCE76800333504 /* JSON.swift in Sources */,
 				82A79BDC1ECC046900333504 /* ViewController.swift in Sources */,
 				82A79BDA1ECC046900333504 /* AppDelegate.swift in Sources */,
 			);
